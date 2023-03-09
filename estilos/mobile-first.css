@@ -10,10 +10,30 @@
 }
 html, body {
 
-    background-color: rgb(83, 26, 137);
+    background-image: linear-gradient(45deg, #49a09d, #5f2c82, #10454F);
+    background-size: 300% 300%;
     width: 100vw;
     height: 100vh;
+    animation: colors 10s ease infinite;
 
+}
+@keyframes colors {
+
+    0% {
+        background-position: 0% 50%;
+      }
+      25% {
+          background-position: 50% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      75% {
+          background-position: 50% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
 }
 main {
 

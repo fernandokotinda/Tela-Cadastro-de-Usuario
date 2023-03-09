@@ -22,3 +22,15 @@
     float: left;
     width: 65%;
 }
+h1 {
+
+    font-size: 2em;
+}
+#login p {
+
+    font-size: 1.2em;
+}
+footer {
+
+    font-size: 1em;
+}
