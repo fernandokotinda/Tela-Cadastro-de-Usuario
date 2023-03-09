@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#login {
+
+    width: 85vw;
+    
+}
+#login > #imagem {
+
+    float: left;
+    width: 30%;
+    height: 200px;
+    
+
+}
+#login > #formulario {
+
+    float: right;
+    width: 70%;
+    
+
+}
+#login > div > footer {
+
+    float: right;
+    width: 70%;
+    
+}
