@@ -20,17 +20,18 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <span class="material-symbols-outlined">
-                        account_circle
-                    </span>
-                    <input type="email" name="email" id="email" autocomplete="email" placeholder="Seu e-mail" required maxlength="50">
-                    <label for="email">Login</label>
-                    
-                    <span class="material-symbols-outlined">
-                        vpn_key
-                        </span>
-                    <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="Insira sua senha" required minlength="8" maxlength="20">
-                    <label for="senha">Senha</label>
+                    <div class="campo">
+                        <span class="material-symbols-outlined"> account_circle </span>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="Seu e-mail" required maxlength="50">
+                        <label for="email">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            vpn_key
+                            </span>
+                        <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="Insira sua senha" required minlength="8" maxlength="20">
+                        <label for="senha">Senha</label>
+                    </div>
                     <input type="submit" value="Entrar">
                 </form>
             </div>

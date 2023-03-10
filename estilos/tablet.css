@@ -9,8 +9,12 @@
 
     float: left;
     width: 30%;
-    height: 200px;
+    height: 400px;
     
+}
+#login p {
+
+    padding: 15px 0px;
 
 }
 #login > #formulario {
