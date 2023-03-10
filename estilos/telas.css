@@ -2,7 +2,9 @@
 
 #login {
 
-    width: 50vw;
+    width: 800px;
+    height: 430px;
+    
 }
 #login > #formulario {
 
@@ -14,7 +16,7 @@
 
     float: right;
     width: 35%;
-    height: 500px;
+    height: 450px;
 
 }
 #login > div > footer {
@@ -26,12 +28,18 @@ h1 {
     padding-top: 8px;
     font-size: 2em;
 }
-#login p {
+#login .subtitulo {
 
     font-size: 1.1em;
     padding: 20px 0px;
 }
-footer {
+#login .text-conta {
 
+    font-size: 0.9em;
+}
+footer {
+    
+    bottom: 0px;
+    position: fixed;
     font-size: 1em;
 }

@@ -65,7 +65,7 @@ main {
     transition-timing-function: ease;
 
 }
-#login p {
+#login .subtitulo {
 
     padding: 8px 0px;
 }
@@ -90,7 +90,7 @@ h1 {
 }
 .campo {
 
-    background-color: #8b33c5;
+    background-color: #611e8d;
     width: 100%;
     height: 50px;
     margin: auto;
@@ -103,7 +103,7 @@ h1 {
 .campo > input {
 
     font-size: 1em;
-    background-color: #63d3d0;
+    background-image: linear-gradient(90deg, #63d3d0, #a4fbf8);
     border-radius: 10px;
     height: 98%;
     width: calc(100% - 45px);
@@ -118,32 +118,37 @@ h1 {
 }
 .check {
 
-    display: inline-block;
+    
     padding: 6px 0px 4px 10px;
     font-size: 0.8em;
-    color: #414141;
+    color: #5a5a5a;
+    font-weight: bold;
 }
-.check:hover {
+.check > label:hover {
 
     color: #000;
 }
-.lem-senha {
 
-   display: inline-block;
-
-}
-.lem-senha a {
+ .check > .lem-senha {
 
     text-decoration: none;
-    font-size: 0.9em;
-    padding: 6px 0px 4px 0px;
-    color: #414141;
+    font-size: 1em;
+    color: #5a5a5a;
+    float: right;
+    transform: translateY(-1px);
+    font-weight: bold;
 
 }
-.lem-senha a:hover {
+.check > .lem-senha:hover {
 
     text-decoration: underline;
     color: #000;
+    
+}
+.check > .lem-senha::after  {
+
+    content: "🔐";
+    
 }
 form > input[type=submit] {
 
@@ -152,10 +157,11 @@ form > input[type=submit] {
     margin: auto;
     width: 90%;
     height: 50px;
-    background-color: rgb(90, 90, 254);
+    background-image: linear-gradient(90deg, rgba(82, 142, 142, 0.779), rgb(35, 35, 159)  );
+    color: white;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     box-shadow:0px 0px 18px 0px #0000003d
 
 }
@@ -172,6 +178,32 @@ footer {
     text-align: center;
     padding: 5px;
     background-color: rgba(82, 142, 142, 0.779)
+    
+}
+#text-final {
+
+    padding: 5px;
+
+}
+.text-conta{
+
+    font-size: 0.9em;
+    font-style: italic;
+    color: #6e6e6e;
+    margin: 9px 0px -4px 15px;
+    display: inline-block;
+
+}
+.cadastre {
+
+    color: #000;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cadastre:hover {
+
+    text-decoration: underline;
     
 }
 footer > a {
